@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Woodbridge Public Library Accessibility Report</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-slate-100 to-blue-50 text-gray-800">
+
+  <!-- HERO -->
+  <header class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-16 text-center shadow-lg">
+    <h1 class="text-4xl md:text-5xl font-bold animate__animated animate__fadeInDown">
+      Woodbridge Public Library
+    </h1>
+    <p class="text-lg mt-4 animate__animated animate__fadeInUp">
+      Accessibility Critique Report
+    </p>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="max-w-6xl mx-auto px-6 py-10 space-y-12">
+
+    <!-- INTRO -->
+    <section class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
+      <div class="flex items-center gap-3 mb-3">
+        <i data-lucide="book-open"></i>
+        <h2 class="text-2xl font-semibold">Introduction</h2>
+      </div>
+      <p>
+        This project analyzes the accessibility of Woodbridge Public Library, focusing on how well the space supports individuals with mobility and sensory impairments.
+      </p>
+      <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" class="mt-4 rounded-xl w-full h-64 object-cover">
+    </section>
+
+    <!-- CONCEPTS -->
+    <section class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
+      <div class="flex items-center gap-3 mb-3">
+        <i data-lucide="lightbulb"></i>
+        <h2 class="text-2xl font-semibold">Key Concepts</h2>
+      </div>
+      <ul class="grid md:grid-cols-3 gap-4">
+        <li class="p-4 bg-blue-50 rounded-xl">
+          <strong>Disability</strong><br>
+          Visible & invisible conditions
+        </li>
+        <li class="p-4 bg-green-50 rounded-xl">
+          <strong>Accessibility</strong><br>
+          Independent use for everyone
+        </li>
+        <li class="p-4 bg-purple-50 rounded-xl">
+          <strong>Universal Design</strong><br>
+          Inclusive for all users
+        </li>
+      </ul>
+    </section>
+
+    <!-- POSITIVE -->
+    <section class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
+      <div class="flex items-center gap-3 mb-3">
+        <i data-lucide="check-circle"></i>
+        <h2 class="text-2xl font-semibold">Positive Features</h2>
+      </div>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="flex items-center gap-3"><i data-lucide="door-open"></i>Automatic doors</div>
+        <div class="flex items-center gap-3"><i data-lucide="arrow-up-down"></i>Elevators</div>
+        <div class="flex items-center gap-3"><i data-lucide="bath"></i>Accessible washrooms</div>
+        <div class="flex items-center gap-3"><i data-lucide="heart"></i>Service animals allowed</div>
+      </div>
+    </section>
+
+    <!-- ISSUES -->
+    <section class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
+      <div class="flex items-center gap-3 mb-3">
+        <i data-lucide="alert-triangle"></i>
+        <h2 class="text-2xl font-semibold">Accessibility Issues</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <div class="bg-red-50 p-4 rounded-xl">
+          <h3 class="font-semibold mb-2">Wheelchair Access</h3>
+          <ul class="list-disc ml-5 text-sm">
+            <li>No backup door button</li>
+            <li>No internal ramps</li>
+            <li>Limited elevator reach</li>
+            <li>Emergency exit inaccessible</li>
+          </ul>
+        </div>
+
+        <div class="bg-yellow-50 p-4 rounded-xl">
+          <h3 class="font-semibold mb-2">Visual Accessibility</h3>
+          <ul class="list-disc ml-5 text-sm">
+            <li>No tactile paths</li>
+            <li>Limited Braille</li>
+            <li>No assistive tech</li>
+          </ul>
+        </div>
+
+        <div class="bg-orange-50 p-4 rounded-xl">
+          <h3 class="font-semibold mb-2">Wayfinding</h3>
+          <ul class="list-disc ml-5 text-sm">
+            <li>Small unclear signs</li>
+            <li>Confusing layout</li>
+            <li>Poor organization</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- RECOMMENDATIONS -->
+    <section class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
+      <div class="flex items-center gap-3 mb-3">
+        <i data-lucide="sparkles"></i>
+        <h2 class="text-2xl font-semibold">Recommendations</h2>
+      </div>
+      <ul class="grid md:grid-cols-2 gap-3">
+        <li class="bg-blue-50 p-3 rounded-lg">Add tactile floor markings</li>
+        <li class="bg-blue-50 p-3 rounded-lg">Improve signage & Braille</li>
+        <li class="bg-blue-50 p-3 rounded-lg">Install door push button</li>
+        <li class="bg-blue-50 p-3 rounded-lg">Add ramps or lifts</li>
+        <li class="bg-blue-50 p-3 rounded-lg">Improve parking pathways</li>
+      </ul>
+    </section>
+
+    <!-- CONCLUSION -->
+    <section class="bg-gradient-to-r from-indigo-500 to-blue-500 text-white rounded-2xl shadow-lg p-6 text-center">
+      <h2 class="text-2xl font-semibold mb-2">Conclusion</h2>
+      <p>
+        The library meets basic accessibility standards but lacks a cohesive and inclusive design. Improvements are necessary to ensure equal access for all users.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-6 text-gray-500">
+    <p>Created by Liana Kadyrova • 2026</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+
+</body>
+</html>
